@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 # ================= CONFIGURACIÓN =================
 # ⚠️ ASEGÚRATE DE QUE ESTE TOKEN SEA EL NUEVO (NO EL QUE PUBLICASTE ANTES)
-TOKEN = '8308127766:AAGdiIcibbJUwro2xZhiGpvP1Y0EmdWELXs' 
+TOKEN = 'TOKEN' 
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 usuarios_state = {}
