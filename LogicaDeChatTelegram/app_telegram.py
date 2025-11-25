@@ -26,15 +26,15 @@ usuarios_state = {}
 # ================= PREGUNTAS (Resumido para ahorrar espacio, funciona igual) =================
 PREGUNTAS = [
     {"campo": "Edad", "texto": "1. ¿Cuál es su *Edad*? (Escriba número)", "tipo": "numero", "opciones": None},
-    {"campo": "Fuma actualmente", "texto": "2. Tabaco:", "tipo": "boton", "opciones": [[{"text": "Diario", "callback_data": "1"}], [{"text": "Ocasional", "callback_data": "2"}], [{"text": "Ex-fumador", "callback_data": "3"}], [{"text": "Nunca", "callback_data": "4"}]]},
-    {"campo": "Antecedentes de hipertension", "texto": "3. Antecedentes hipertensión:", "tipo": "boton", "opciones": [[{"text": "Sí", "callback_data": "1"}, {"text": "No", "callback_data": "2"}], [{"text": "No sabe", "callback_data": "-8888"}] ]},
-    {"campo": "Frecuencia de tomar bebida alcoholica", "texto": "4. Alcohol:", "tipo": "boton", "opciones": [[{"text": "Sí", "callback_data": "1"}, {"text": "No", "callback_data": "2"}]]},
+    {"campo": "¿Con qué frecuencia fuma actualmente?", "texto": "2. Tabaco:", "tipo": "boton", "opciones": [[{"text": "Diario", "callback_data": "1"}], [{"text": "Ocasional", "callback_data": "2"}], [{"text": "Ex-fumador", "callback_data": "3"}], [{"text": "Nunca", "callback_data": "4"}]]},
+    {"campo": "¿Tiene antecedentes de hipertensión?", "texto": "3. Antecedentes hipertensión:", "tipo": "boton", "opciones": [[{"text": "Sí", "callback_data": "1"}, {"text": "No", "callback_data": "2"}], [{"text": "No sabe", "callback_data": "-8888"}] ]},
+    {"campo": "¿Toma bebidas alcohólicas con frecuencia?", "texto": "4. Alcohol:", "tipo": "boton", "opciones": [[{"text": "Sí", "callback_data": "1"}, {"text": "No", "callback_data": "2"}]]},
     {"campo": "Frecuencia de actividad fisica", "texto": "5. Actividad física:", "tipo": "boton", "opciones": [[{"text": "Alta", "callback_data": "1"}], [{"text": "Media", "callback_data": "2"}], [{"text": "Baja", "callback_data": "3"}]]},
-    {"campo": "Peso(Kg)", "texto": "6. Peso (Kg):", "tipo": "numero", "opciones": None},
-    {"campo": "Talla(cm)", "texto": "7. Talla (cm):", "tipo": "numero", "opciones": None},
-    {"campo": "Sistólica", "texto": "8. Sistólica (Alta):", "tipo": "numero", "opciones": None},
-    {"campo": "Diastólica", "texto": "9. Diastólica (Baja):", "tipo": "numero", "opciones": None},
-    {"campo": "Tiene diabetes", "texto": "10. Diabetes:", "tipo": "boton", "opciones": [[{"text": "Sí", "callback_data": "1"}, {"text": "No", "callback_data": "2"}], [{"text": "No sabe", "callback_data": "-8888"}] ]}
+    {"campo": "¿Cuál es su peso en kilogramos? (ej. 70)", "texto": "6. Peso (Kg):", "tipo": "numero", "opciones": None},
+    {"campo": "¿Cuál es su estatura en centímetros? (ej. 170)", "texto": "7. Talla (cm):", "tipo": "numero", "opciones": None},
+    {"campo": "¿Cuál es su presión sistólica?", "texto": "8. Sistólica (Alta):", "tipo": "numero", "opciones": None},
+    {"campo": "¿Cuál es su presión diastólica?", "texto": "9. Diastólica (Baja):", "tipo": "numero", "opciones": None},
+    {"campo": "¿Tiene diabetes?", "texto": "10. Diabetes:", "tipo": "boton", "opciones": [[{"text": "Sí", "callback_data": "1"}, {"text": "No", "callback_data": "2"}], [{"text": "No sabe", "callback_data": "-8888"}] ]}
 ]
 
 # ================= FUNCIONES =================
